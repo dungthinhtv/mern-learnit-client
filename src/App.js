@@ -7,7 +7,6 @@ import Dashboard from './views/Dashboard';
 import ProtectedRoute from './components/routing/ProtectedRoute';
 import About from './views/About';
 import PostContextProvider from './contexts/PostContext';
-import Login from './components/auth/Login';
 
 function App() {
   return (
