@@ -1,3 +1,5 @@
+import React from 'react';
+
 import LoginForm from '../components/auth/LoginForm';
 import RegisterForm from '../components/auth/RegisterForm';
 import { AuthContext } from '../contexts/AuthContext';

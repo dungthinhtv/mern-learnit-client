@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { createContext, useReducer, useState } from 'react';
 import { postReducer } from '../reducers/postReducer';
 import {
