@@ -10,7 +10,11 @@ export default function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Landing} />
-        <Route exact path="/login" render={props=><Auth{...props} authRoute='login' } />
+        <Route
+          exact
+          path="/login"
+          render={(props) => <Auth {...props} authRoute="login" />}
+        />
       </Switch>
     </Router>
   );
