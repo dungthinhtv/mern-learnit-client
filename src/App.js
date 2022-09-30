@@ -3,7 +3,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Landing from './components/layout/Landing';
-import Login from './components/layout/Login';
+import Auth from './views/Auth';
 
 export default function App() {
   return (
